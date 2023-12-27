@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поиск"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        app:srcCompat="@drawable/img_5" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="317dp"
+        android:layout_height="70dp"
+        android:background="@drawable/border1"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="Хочу вкусный лате!"
+        android:textColor="#B1B1B1"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/text3"
+        app:layout_constraintEnd_toEndOf="@+id/text3"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="@+id/text3"
+        app:layout_constraintTop_toTopOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.458"
+        app:srcCompat="@drawable/img_2" />
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="320dp"
+        android:layout_height="24dp"
+        android:button="@null"
+        android:drawableRight="@drawable/chekbox_selector"
+        android:drawablePadding="8dp"
+        android:text="Показывать действующие полисы"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:tint="@color/edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="320dp"
+        android:layout_height="24dp"
+        android:button="@null"
+        android:drawableRight="@drawable/chekbox_selector"
+        android:drawablePadding="8dp"
+        android:text="Запомнить данные для входа"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:tint="@color/edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.949"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="320dp"
+        android:layout_height="24dp"
+        android:button="@null"
+        android:drawableRight="@drawable/chekbox_selector"
+        android:drawablePadding="8dp"
+        android:text="Показывать Пуш-уведомления"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:tint="@color/edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
